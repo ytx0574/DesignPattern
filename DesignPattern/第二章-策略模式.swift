@@ -1,6 +1,6 @@
 //
 //  第二章-策略模式.swift
-//  SwifTest
+//  DesignPattern
 //
 //  Created by Johnson on 16/2/15.
 //  Copyright © 2016年 Johnson. All rights reserved.
@@ -14,6 +14,7 @@
     3. 每个算法都有自己的类, 简化了单元测试
 */
 
+
 import Foundation
 
 class CashSuper {
@@ -21,6 +22,7 @@ class CashSuper {
         return 0.0
     }
 }
+
 
 
 class CashNormal: CashSuper {
@@ -61,41 +63,6 @@ class CashReturn: CashSuper {
     }
 }
 
-
-//class Strategy {
-//    func algorithmInterface() {}
-//}
-//
-//class ConcreteStrategyA: Strategy {
-//    override func algorithmInterface() {
-//        NSLog("算法A的实现")
-//    }
-//}
-//
-//class ConcreteStrategyB: Strategy {
-//    override func algorithmInterface() {
-//        NSLog("算法B的实现")
-//    }
-//}
-//
-//class ConcreteStrategyC: Strategy {
-//    override func algorithmInterface() {
-//        NSLog("算法C的实现")
-//    }
-//}
-//
-//
-//class Context {
-//    
-//    var strategy: Strategy
-//    init(strategyT: Strategy) {
-//        strategy = strategyT
-//    }
-//    
-//    func contextInterface() {
-//        strategy.algorithmInterface()
-//    }
-//}
 
 
 class CashContext {

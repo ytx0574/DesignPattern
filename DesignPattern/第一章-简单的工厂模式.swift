@@ -1,6 +1,6 @@
 //
-//  Operation.swift
-//  SwifTest
+//  第一章-简单的工厂模式.swift
+//  DesignPattern
 //
 //  Created by Johnson on 16/2/15.
 //  Copyright © 2016年 Johnson. All rights reserved.
@@ -14,6 +14,7 @@
     3. 可扩展;  迭代增加方便
     4. 灵活性好.  类似活字印刷, 排版 横竖 都可以
 */
+
 
 import Foundation
 
