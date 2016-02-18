@@ -35,18 +35,33 @@ var bigThrouser: BigThrouser = BigThrouser()
 var underpants: Underpants = Underpants()
 var tshirts: Tshirts = Tshirts()
 
-//第一种装扮
+//第一种装扮(装饰模式)
 suit.decorate(person)
 bigThrouser.decorate(suit)
 underpants.decorate(bigThrouser)
 underpants.show()
 
-//第二种装扮
+//第二种装扮(装饰模式)
 bigThrouser.decorate(person)
 tshirts.decorate(bigThrouser)
 suit.decorate(tshirts)
 suit.show()
 
+
+//代理模式
+var schollGirl: SchoolGirl = SchoolGirl()
+schollGirl.name = "MM"
+
+var proxy: Proxy = Proxy(mm: schollGirl)
+proxy.giveDolls()
+proxy.giveFlowers()
+proxy.giveChocolate()
+
+
+//工厂方法模式  相比简单工厂模式的好处在于, 集中封装了对象的创建, 不需要做大的改动就可实现
+VolunteerFactory().createLeifeng()
+
+UndergraduateFactory().createLeifeng()
 
 
 
