@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDA1D991C747CC3000228F3 /* 第六章-装饰模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */; };
 		2CE372CC1C732EC000596E19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE372CB1C732EC000596E19 /* main.swift */; };
 		2CE372D41C732ED300596E19 /* 第一章-简单的工厂模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE372D21C732ED300596E19 /* 第一章-简单的工厂模式.swift */; };
 		2CE372D51C732ED300596E19 /* 第二章-策略模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE372D31C732ED300596E19 /* 第二章-策略模式.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第六章-装饰模式.swift"; sourceTree = "<group>"; };
 		2CE372C81C732EC000596E19 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE372CB1C732EC000596E19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2CE372D21C732ED300596E19 /* 第一章-简单的工厂模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第一章-简单的工厂模式.swift"; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				2CE372CB1C732EC000596E19 /* main.swift */,
 				2CE372D21C732ED300596E19 /* 第一章-简单的工厂模式.swift */,
 				2CE372D31C732ED300596E19 /* 第二章-策略模式.swift */,
+				2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDA1D991C747CC3000228F3 /* 第六章-装饰模式.swift in Sources */,
 				2CE372CC1C732EC000596E19 /* main.swift in Sources */,
 				2CE372D41C732ED300596E19 /* 第一章-简单的工厂模式.swift in Sources */,
 				2CE372D51C732ED300596E19 /* 第二章-策略模式.swift in Sources */,
@@ -247,6 +251,7 @@
 				2CE372D11C732EC000596E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
