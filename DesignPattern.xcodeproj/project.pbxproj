@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6F586D1C7C6A7200F43B0B /* 第十六章-状态模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F586C1C7C6A7200F43B0B /* 第十六章-状态模式.swift */; };
+		2C6F586F1C7DAC6600F43B0B /* 第十七章-适配器模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F586E1C7DAC6600F43B0B /* 第十七章-适配器模式.swift */; };
+		2CC61FD51C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC61FD41C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift */; };
 		2CDA1D991C747CC3000228F3 /* 第六章-装饰模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */; };
 		2CDA1D9B1C757382000228F3 /* 第七章-代理模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA1D9A1C757382000228F3 /* 第七章-代理模式.swift */; };
 		2CDA1D9E1C75A8E5000228F3 /* 第八章-工厂方法模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA1D9D1C75A8E5000228F3 /* 第八章-工厂方法模式.swift */; };
@@ -28,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C6F586C1C7C6A7200F43B0B /* 第十六章-状态模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十六章-状态模式.swift"; sourceTree = "<group>"; };
+		2C6F586E1C7DAC6600F43B0B /* 第十七章-适配器模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十七章-适配器模式.swift"; sourceTree = "<group>"; };
+		2CC61FD41C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十三章-建造者模式.swift"; sourceTree = "<group>"; };
+		2CC61FD61C7C0AAB00CF3CA6 /* 第十三章-建造者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第十三章-建造者模式.png"; sourceTree = "<group>"; };
 		2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第六章-装饰模式.swift"; sourceTree = "<group>"; };
 		2CDA1D9A1C757382000228F3 /* 第七章-代理模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第七章-代理模式.swift"; sourceTree = "<group>"; };
 		2CDA1D9C1C757825000228F3 /* 第七章-代理模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第七章-代理模式.png"; sourceTree = "<group>"; };
@@ -77,6 +84,10 @@
 				2CDA1D9C1C757825000228F3 /* 第七章-代理模式.png */,
 				2CDA1D9D1C75A8E5000228F3 /* 第八章-工厂方法模式.swift */,
 				2CDA1D9F1C75AB7A000228F3 /* 第八章-工厂方法模式.png */,
+				2CC61FD41C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift */,
+				2CC61FD61C7C0AAB00CF3CA6 /* 第十三章-建造者模式.png */,
+				2C6F586C1C7C6A7200F43B0B /* 第十六章-状态模式.swift */,
+				2C6F586E1C7DAC6600F43B0B /* 第十七章-适配器模式.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -138,11 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6F586D1C7C6A7200F43B0B /* 第十六章-状态模式.swift in Sources */,
 				2CDA1D9E1C75A8E5000228F3 /* 第八章-工厂方法模式.swift in Sources */,
 				2CDA1D991C747CC3000228F3 /* 第六章-装饰模式.swift in Sources */,
 				2CE372CC1C732EC000596E19 /* main.swift in Sources */,
 				2CE372D41C732ED300596E19 /* 第一章-简单的工厂模式.swift in Sources */,
+				2C6F586F1C7DAC6600F43B0B /* 第十七章-适配器模式.swift in Sources */,
 				2CDA1D9B1C757382000228F3 /* 第七章-代理模式.swift in Sources */,
+				2CC61FD51C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift in Sources */,
 				2CE372D51C732ED300596E19 /* 第二章-策略模式.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

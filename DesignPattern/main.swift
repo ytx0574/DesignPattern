@@ -66,6 +66,42 @@ UndergraduateFactory().createLeifeng()
 
 
 
+//建造者模式
+var director: Director = Director()
+var builder = ConcreteBuildA()
+director.construct(builder)
+
+var product:Product = builder.getResult()
+product.show()
+
+
+
+
+//状态模式
+var work: Work = Work()
+work.hour = 11
+work.writeProgram()
+
+work.hour = 18
+work.writeProgram()
+
+work.hour = 20
+work.writeProgram()
+
+work.finished = true
+work.writeProgram()
+
+
+//适配器模式
+var b: Player = Forwards(tname:"巴蒂尔")
+b.defense()
+
+var m: Player = Guards(tname:"麦克")
+m.attack()
+
+var t: Translator = Translator(tname: "姚明")
+t.defense()
+
 
 
 
@@ -90,4 +126,31 @@ UndergraduateFactory().createLeifeng()
     里氏代换原则: 子类必须能够替换它们的父类型, 这里的替换是指子类可以替换掉父类, 并且软件功能不受影响时, 父类才能真正的被复用, 而子类还可以在父类的基础上增加新的功能
     例如: 
         鸟类拥有飞行, 吃, 叫, 但是企鹅却不能继承鸟类, 因为它不会飞. 不能完全替换父类.
+
+    
+    迪米特法则: 如果两个类不必彼此通信, 那么这两个类就不应当发生直接的相互作用. 如果其中一个类需要调用另外一个类的某一个方法的话, 可以通过第三者转发这个调用.  迪米特法则的基本思想是强调类之间的松耦合, 耦合越弱, 就越有利于复用. 一个处于若引用的类被修改, 不会对有关系的类照成影响
+    例如:
+        当需要it部装电脑时, 不需要具体认识里面哪位, 直接找it部即可. 至于具体谁来装, 让it部自己去分配即可
+
+
+    外观模式: 为子系统的一组接口踢狗一个一致的界面, 此模式定义了一个高层接口, 这个接口使得这一子系统更加容易使用
+    例如: 股民买股票, 可以直接买, 也可以直接购买基金,  而基金则只需要关注涨还是跌, 其后面的工作都是投资人在操作. 直接买股票将面临多支股票的买入买出, 复杂而使耦合性增加, 不适用新手, 极其容易亏损
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
