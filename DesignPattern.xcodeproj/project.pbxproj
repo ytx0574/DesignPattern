@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		2C6F586D1C7C6A7200F43B0B /* 第十六章-状态模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F586C1C7C6A7200F43B0B /* 第十六章-状态模式.swift */; };
 		2C6F586F1C7DAC6600F43B0B /* 第十七章-适配器模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F586E1C7DAC6600F43B0B /* 第十七章-适配器模式.swift */; };
+		2C6F58711C7EA3AE00F43B0B /* 第十九章-组合模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F58701C7EA3AE00F43B0B /* 第十九章-组合模式.swift */; };
+		2CA457A21C842F2B004A6896 /* 第二十二章-桥接模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457A11C842F2B004A6896 /* 第二十二章-桥接模式.swift */; };
+		2CA457A41C843EC1004A6896 /* 第二十三章-命令模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457A31C843EC1004A6896 /* 第二十三章-命令模式.swift */; };
+		2CA457A61C844DFF004A6896 /* 第二十四章-职责链模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457A51C844DFF004A6896 /* 第二十四章-职责链模式.swift */; };
+		2CA457A81C8544BF004A6896 /* 第二十五章-中介者模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457A71C8544BF004A6896 /* 第二十五章-中介者模式.swift */; };
+		2CA457AA1C857784004A6896 /* 第二十六章-享元模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457A91C857784004A6896 /* 第二十六章-享元模式.swift */; };
+		2CA457AC1C8589E9004A6896 /* 第二十八章-访问者模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457AB1C8589E9004A6896 /* 第二十八章-访问者模式.swift */; };
+		2CA457AF1C88114A004A6896 /* 第十五章-抽象工厂模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA457AE1C88114A004A6896 /* 第十五章-抽象工厂模式.swift */; };
 		2CC61FD51C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC61FD41C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift */; };
 		2CDA1D991C747CC3000228F3 /* 第六章-装饰模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */; };
 		2CDA1D9B1C757382000228F3 /* 第七章-代理模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA1D9A1C757382000228F3 /* 第七章-代理模式.swift */; };
@@ -33,6 +41,16 @@
 /* Begin PBXFileReference section */
 		2C6F586C1C7C6A7200F43B0B /* 第十六章-状态模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十六章-状态模式.swift"; sourceTree = "<group>"; };
 		2C6F586E1C7DAC6600F43B0B /* 第十七章-适配器模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十七章-适配器模式.swift"; sourceTree = "<group>"; };
+		2C6F58701C7EA3AE00F43B0B /* 第十九章-组合模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十九章-组合模式.swift"; sourceTree = "<group>"; };
+		2C6F58721C7EE33A00F43B0B /* 第十九章-透明模式与安全模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第十九章-透明模式与安全模式.png"; sourceTree = "<group>"; };
+		2CA457A11C842F2B004A6896 /* 第二十二章-桥接模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第二十二章-桥接模式.swift"; sourceTree = "<group>"; };
+		2CA457A31C843EC1004A6896 /* 第二十三章-命令模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第二十三章-命令模式.swift"; sourceTree = "<group>"; };
+		2CA457A51C844DFF004A6896 /* 第二十四章-职责链模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第二十四章-职责链模式.swift"; sourceTree = "<group>"; };
+		2CA457A71C8544BF004A6896 /* 第二十五章-中介者模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第二十五章-中介者模式.swift"; sourceTree = "<group>"; };
+		2CA457A91C857784004A6896 /* 第二十六章-享元模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第二十六章-享元模式.swift"; sourceTree = "<group>"; };
+		2CA457AB1C8589E9004A6896 /* 第二十八章-访问者模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第二十八章-访问者模式.swift"; sourceTree = "<group>"; };
+		2CA457AD1C859078004A6896 /* 第二十八章-访问者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第二十八章-访问者模式.png"; sourceTree = "<group>"; };
+		2CA457AE1C88114A004A6896 /* 第十五章-抽象工厂模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十五章-抽象工厂模式.swift"; sourceTree = "<group>"; };
 		2CC61FD41C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第十三章-建造者模式.swift"; sourceTree = "<group>"; };
 		2CC61FD61C7C0AAB00CF3CA6 /* 第十三章-建造者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第十三章-建造者模式.png"; sourceTree = "<group>"; };
 		2CDA1D981C747CC3000228F3 /* 第六章-装饰模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "第六章-装饰模式.swift"; sourceTree = "<group>"; };
@@ -86,8 +104,18 @@
 				2CDA1D9F1C75AB7A000228F3 /* 第八章-工厂方法模式.png */,
 				2CC61FD41C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift */,
 				2CC61FD61C7C0AAB00CF3CA6 /* 第十三章-建造者模式.png */,
+				2CA457AE1C88114A004A6896 /* 第十五章-抽象工厂模式.swift */,
 				2C6F586C1C7C6A7200F43B0B /* 第十六章-状态模式.swift */,
 				2C6F586E1C7DAC6600F43B0B /* 第十七章-适配器模式.swift */,
+				2C6F58701C7EA3AE00F43B0B /* 第十九章-组合模式.swift */,
+				2C6F58721C7EE33A00F43B0B /* 第十九章-透明模式与安全模式.png */,
+				2CA457A11C842F2B004A6896 /* 第二十二章-桥接模式.swift */,
+				2CA457A31C843EC1004A6896 /* 第二十三章-命令模式.swift */,
+				2CA457A51C844DFF004A6896 /* 第二十四章-职责链模式.swift */,
+				2CA457A71C8544BF004A6896 /* 第二十五章-中介者模式.swift */,
+				2CA457A91C857784004A6896 /* 第二十六章-享元模式.swift */,
+				2CA457AB1C8589E9004A6896 /* 第二十八章-访问者模式.swift */,
+				2CA457AD1C859078004A6896 /* 第二十八章-访问者模式.png */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -149,15 +177,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA457A81C8544BF004A6896 /* 第二十五章-中介者模式.swift in Sources */,
 				2C6F586D1C7C6A7200F43B0B /* 第十六章-状态模式.swift in Sources */,
 				2CDA1D9E1C75A8E5000228F3 /* 第八章-工厂方法模式.swift in Sources */,
+				2CA457A61C844DFF004A6896 /* 第二十四章-职责链模式.swift in Sources */,
+				2CA457AA1C857784004A6896 /* 第二十六章-享元模式.swift in Sources */,
 				2CDA1D991C747CC3000228F3 /* 第六章-装饰模式.swift in Sources */,
 				2CE372CC1C732EC000596E19 /* main.swift in Sources */,
 				2CE372D41C732ED300596E19 /* 第一章-简单的工厂模式.swift in Sources */,
 				2C6F586F1C7DAC6600F43B0B /* 第十七章-适配器模式.swift in Sources */,
 				2CDA1D9B1C757382000228F3 /* 第七章-代理模式.swift in Sources */,
+				2C6F58711C7EA3AE00F43B0B /* 第十九章-组合模式.swift in Sources */,
+				2CA457A21C842F2B004A6896 /* 第二十二章-桥接模式.swift in Sources */,
 				2CC61FD51C7C05DA00CF3CA6 /* 第十三章-建造者模式.swift in Sources */,
 				2CE372D51C732ED300596E19 /* 第二章-策略模式.swift in Sources */,
+				2CA457AF1C88114A004A6896 /* 第十五章-抽象工厂模式.swift in Sources */,
+				2CA457A41C843EC1004A6896 /* 第二十三章-命令模式.swift in Sources */,
+				2CA457AC1C8589E9004A6896 /* 第二十八章-访问者模式.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

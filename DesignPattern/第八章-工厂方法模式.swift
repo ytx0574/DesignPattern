@@ -40,12 +40,14 @@ protocol LeifengFactory {
 
 class UndergraduateFactory: LeifengFactory {  //社区志愿者工厂
     func createLeifeng() -> Leifeng {
+        NSLog("工厂方法模式-> 创建社区志愿者")
         return Undergraduate()
     }
 }
 
 class VolunteerFactory: LeifengFactory {   //学雷锋大学生工厂
     func createLeifeng() -> Leifeng {
+        NSLog("工厂方法模式-> 创建学雷锋的大学生")
         return Volunteer()
     }
 }

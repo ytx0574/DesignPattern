@@ -30,11 +30,11 @@ class Player {
 class Forwards: Player {
     
     override func attack() {
-        NSLog("前锋\(self.name!) 进攻")
+        NSLog("适配器模式-> 前锋\(self.name!) 进攻")
     }
     
     override func defense() {
-        NSLog("前锋\(self.name!) 防守")
+        NSLog("适配器模式-> 前锋\(self.name!) 防守")
     }
 }
 
@@ -57,10 +57,10 @@ class ForeignCenter {
     }
     
     func 进攻() {
-        NSLog("外籍中锋%@ 进攻", self.name!)
+        NSLog("适配器模式-> 外籍中锋%@ 进攻", self.name!)
     }
     func 防守() {
-        NSLog("外籍中锋%@ 防守", self.name!)
+        NSLog("适配器模式-> 外籍中锋%@ 防守", self.name!)
     }
 }
 

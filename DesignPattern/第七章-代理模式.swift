@@ -42,15 +42,15 @@ class Pursuit: GiveGift {  //追求者
     }
     
     func giveDolls() {
-        NSLog("\(schoolGirl?.name)送你洋娃娃")
+        NSLog("代理模式-> \(schoolGirl?.name)送你洋娃娃")
     }
     
     func giveFlowers() {
-        NSLog("\(schoolGirl?.name)送你鲜花")
+        NSLog("代理模式-> \(schoolGirl?.name)送你鲜花")
     }
     
     func giveChocolate() {
-        NSLog("\(schoolGirl?.name)送你巧克力")
+        NSLog("代理模式-> \(schoolGirl?.name)送你巧克力")
     }
 }
 

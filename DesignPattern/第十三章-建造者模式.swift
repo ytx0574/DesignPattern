@@ -24,7 +24,7 @@ class Product {
     }
     
     func show() {
-        NSLog("展示产品")
+        NSLog("建造者模式-> 展示产品")
     }
 }
 
@@ -40,11 +40,11 @@ class ConcreteBuildA: Builder {
     
     lazy var product: Product = Product()
     func buildA() {
-        NSLog("建造者A  添加部件A")
+        NSLog("建造者模式-> 建造者A  添加部件A")
     }
     
     func buildB() {
-        NSLog("建造者A  添加部件B")
+        NSLog("建造者模式-> 建造者A  添加部件B")
     }
     
     func getResult() -> Product {
@@ -57,11 +57,11 @@ class ConcreteBuildB: Builder {
     lazy var product: Product = Product()
     
     func buildA() {
-        NSLog("建造者B  添加部件A")
+        NSLog("建造者模式-> 建造者B  添加部件A")
     }
     
     func buildB() {
-        NSLog("建造者B  添加部件B")
+        NSLog("建造者模式-> 建造者B  添加部件B")
     }
     
     func getResult() -> Product {

@@ -22,7 +22,7 @@ class State {
 class ForenoonState: State {
     override func writeProgram(work: Work) {
         if work.hour < 12 {
-            NSLog("当前时间: \(work.hour), 上午工作, 精神百倍")
+            NSLog("状态模式-> 当前时间: \(work.hour), 上午工作, 精神百倍")
         }else {
             work.state = NoonState()
             work.writeProgram()
@@ -33,7 +33,7 @@ class ForenoonState: State {
 class NoonState: State {
     override func writeProgram(work: Work) {
         if work.hour < 13 {
-            NSLog("当前时间: \(work.hour), 饿了, 午饭, 犯困 午休")
+            NSLog("状态模式-> 当前时间: \(work.hour), 饿了, 午饭, 犯困 午休")
         }else {
             work.state = AfternoonState()
             work.writeProgram()
@@ -44,7 +44,7 @@ class NoonState: State {
 class AfternoonState: State {
     override func writeProgram(work: Work) {
         if work.hour < 17 {
-            NSLog("当前时间: \(work.hour), 下午状态还不错, 继续努力")
+            NSLog("状态模式-> 当前时间: \(work.hour), 下午状态还不错, 继续努力")
         }else {
             work.state = EveningState()
             work.writeProgram()
@@ -59,7 +59,7 @@ class EveningState: State {
             work.writeProgram()
         }else {
             if  work.hour < 21 {
-                NSLog("当前时间: \(work.hour), 加班中, 累成狗√")
+                NSLog("状态模式-> 当前时间: \(work.hour), 加班中, 累成狗√")
             }else {
                 work.state = SleepingState()
                 work.writeProgram()
@@ -71,14 +71,14 @@ class EveningState: State {
 //睡眠状态
 class SleepingState: State {
     override func writeProgram(work: Work) {
-        NSLog("当前时间: \(work.hour), 扛不住了, 睡觉了")
+        NSLog("状态模式-> 当前时间: \(work.hour), 扛不住了, 睡觉了")
     }
 }
 
 //下班休息状态
 class RestState: State {
     override func writeProgram(work: Work) {
-        NSLog("当前时间: \(work.hour), 下班了, 回家了")
+        NSLog("状态模式-> 当前时间: \(work.hour), 下班了, 回家了")
     }
 }
 
